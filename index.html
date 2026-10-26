@@ -8,24 +8,27 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-    </style>
 </head>
 <body>
 <header class="header">
 
     <nav class="menu">
-        <img class="logo" src="img/Waxom.png" alt="">
-        <a href="http://"><li>Home</li></a>
-        <a href="http://"><li class="color">About Us</li></a>
-        <a href="http://"><li>Portfolio</li></a>
-        <a href="http://"><li>Features</li></a>
-        <a href="http://"><li>Blog</li></a>
-        <a href="http://"><li>Pricing</li></a>
-        <a href="http://"><li>Shortcodes</li></a>
-        <a href="http://"><li>Contact</li></a>
-
+        <img class="logo" src="img/Waxom.png" alt="logo">
+        <ul class="nav-list">
+        <li><a href="http://">Home</a></li>
+        <li><a href="http://" class="color">About Us</a></li>
+        <li><a href="http://">Portfolio</a></li>
+        <li><a href="http://">Features</a></li>
+        <li><a href="http://">Blog</a></li>
+        <li><a href="http://">Pricing</a></li>
+        <li><a href="http://">Shortcodes</a></li>
+        <li><a href="http://">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </nav>
     <div class="title">
         <h2 class="title_2">Unique and Modern Design</h2>
@@ -45,7 +48,7 @@
    </div>
 
     <div class="blocks_services_2">
-        <img src="img/icon_2.png" alt="">
+        <img src="img/icon_2.png" alt="icon1">
         <h2 class="dev">Development</h2>
         <p class="text_dev">We turn ideas into working products using modern technologies and best practices.</p>
         <div class="line_2"></div>
@@ -53,7 +56,7 @@
     </div>
 
     <div class="blocks_services">
-        <img src="img/icon_3.png" alt="">
+        <img src="img/icon_3.png" alt="icon2">
         <h2>Customization</h2>
         <p>We customize ready-made solutions to fit your unique requirements and corporate style.</p>
         <div class="line_3"></div>
@@ -61,7 +64,7 @@
     </div>
 
     <div class="blocks_services">
-        <img src="img/icon_4.jpg" alt="">
+        <img src="img/icon_4.jpg" alt="icon3">
         <h2>Marketing</h2>
         <p>We promote your product online with effective marketing strategies and campaigns.</p>
         <div class="line_4"></div>
@@ -72,7 +75,7 @@
 <div class="scrin">
 <h3>Waxom is Realization of your Ideas.</h3>
     <p>Our team creates projects that look great on any device — from smartphones to widescreen monitors.</p>
-    <img src="img/browser-center.png" alt="">
+    <img src="img/browser-center.png" alt="icon4">
 </div>
 <div class="block">
     <div class="title_block">
@@ -87,16 +90,16 @@
         <h2>Our Latest Projects</h2>
         <p>Check out our latest work — every project is unique and crafted with attention to detail.</p>
     </div>
-    <div class="btn_gallery">
-        <a href="http://"><button class="all">All</button></a>
-        <a href="http://"><button class="press_gallery">Web Design</button></a>
-        <a href="http://"><button class="press_gallery">Mobile App</button></a>
-        <a href="http://"><button class="press_gallery">Illustration</button></a>
-        <a href="http://"><button class="press_gallery">Photography</button></a>
-    </div>
+    <ul class="btn_gallery">
+        <li><a href="http://"><button class="all">All</button></a></li>
+        <li><a href="http://"><button class="press_gallery">Web Design</button></a></li>
+        <li><a href="http://"><button class="press_gallery">Mobile App</button></a></li>
+        <li><a href="http://"><button class="press_gallery">Illustration</button></a></li>
+        <li><a href="http://"><button class="press_gallery">Photography</button></a></li>
+    </ul>
     <div class="projects">
         <div class="item_project">
-            <a href="http://"><img src="img/photo1.png" alt=""></a>
+            <a href="http://"><img src="img/Projekt%20fotograficzny%20w%20pastelowym%20stylu.png"></a>
             <div class="description">
                 <h3>Photography Project</h3>
                 <p>Photography, Nature</p>
@@ -106,7 +109,7 @@
         </div>
 
         <div class="item_project_2">
-            <a href="http://"><img src="img/photo2.png" alt=""></a>
+            <a href="http://"><img src="img/Przytulne%20studio%20graficzne%20z%20paletą%20kolorów.png"></a>
             <div class="description_2">
                 <h3>Graphic Design</h3>
                 <p>Design, Mock-Up</p>
@@ -116,7 +119,7 @@
         </div>
 
         <div class="item_project_3">
-            <a href="http://"><img src="img/photo3.png" alt=""></a>
+            <a href="http://"><img src="img/Śródziemnomorska%20podróż%20o%20zachodzie%20słońca.png"></a>
             <div class="description_3">
                 <h3>Travel & Holiday</h3>
                 <p>Photography, Travel</p>
@@ -125,11 +128,19 @@
 
         </div>
 
+        <div class="item_project_3">
+            <a href="http://"><img src="img/Nowoczesny%20koncept%20sklepu%20internetowego.png"></a>
+            <div class="description_3">
+                <h3>Corporate Website</h3>
+                <p>Design, Branding</p>
+            </div>
+
+        </div>
     </div>
 
     <div class="projects">
         <div class="item_project">
-            <a href="http://"><img src="img/photo4.png" alt=""></a>
+            <a href="http://"><img src="img/Nowoczesne%20biuro%20i%20strona%20firmowa.png"></a>
             <div class="description">
                 <h3>E-commerce Web Design</h3>
                 <p>Web Design, E-commerce</p>
@@ -141,7 +152,7 @@
 
 
         <div class="item_project_3">
-            <a href="http://"><img src="img/photo5.png" alt=""></a>
+            <a href="http://"><img src="img/Nowoczesna%20ilustracja%20interfejsu%20mobilnego.png"></a>
             <div class="description_3">
                 <h3>Mobile Application</h3>
                 <p>UI/UX, Development</p>
@@ -150,14 +161,6 @@
 
         </div>
 
-        <div class="item_project_3">
-            <a href="http://"><img src="img/photo6.png" alt=""></a>
-            <div class="description_3">
-                <h3>Corporate Website</h3>
-                <p>Design, Branding</p>
-            </div>
-
-        </div>
     </div>
     <div class="btn_more"><button class="more_gallery">Load More</button></div>
 </section>
@@ -188,6 +191,7 @@
         <span>˃</span>
         <p>Easy content management system</p>
     </div>
+</div>
 </div>
 </section>
 <section class="folowers">
@@ -266,6 +270,7 @@
             </div>
         </div>
 
+    </div>
 </section>
 <div class="arrow_block">
    
@@ -352,5 +357,14 @@
         <li><a href="#">Support</a></li>
     </ul>
 </section>
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navList = document.querySelector('.nav-list');
+    
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navList.classList.toggle('active');
+    });
+</script>
 </body>
 </html>
